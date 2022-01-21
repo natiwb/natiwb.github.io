@@ -19,4 +19,4 @@ jobs:
       port: ${{ secrets.PORT }}
       script: |
        unalias rm
-       rm -rf terpwebsite
+       rm -rf natiwb.github.io
