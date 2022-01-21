@@ -20,5 +20,7 @@ jobs:
       password: ${{ secrets.PASSWORD }}
       port: ${{ secrets.PORT }}
       script: |
+       cd ..
+       cd pub
        cd natiwb.github.io
        git pull
