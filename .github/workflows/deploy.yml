@@ -20,5 +20,5 @@ jobs:
       password: ${{ secrets.PASSWORD }}
       port: ${{ secrets.PORT }}
       script: |
-       cd terpwebsite
+       cd natiwb.github.io
        git pull
